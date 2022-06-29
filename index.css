@@ -1,3 +1,25 @@
 body{
-    background-color: aqua;
+    margin: 0;
+}
+.third{
+    background-color:#212529;
+    height: 25vw;
+}
+.second{
+    background-color: #fff;
+    height: 50vw;
+}
+.first{
+    background-color: #fff1f0;
+    height: 25vw;
+    background-image: url('./assets/header-background.png');
+}
+.header-image{
+    width: 10px;
+    height: 10px;
+
+}
+.header-image-div{
+text-align: left;
+display: none;
 }
