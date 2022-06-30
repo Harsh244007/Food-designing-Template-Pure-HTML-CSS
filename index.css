@@ -8,18 +8,49 @@ body{
 .second{
     background-color: #fff;
     height: 50vw;
+    z-index: 1;
 }
 .first{
     background-color: #fff1f0;
-    height: 25vw;
-    background-image: url('./assets/header-background.png');
+    height: 30vw;
+ 
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    font-size: 2vh;
+    margin-top: 0.5vw;
+    justify-content: end;
+    /* display: none !important; */
+    gap: 4vw;
+    font-weight: 800;
+    margin: auto;
+    color: #716D82 ;
+}
+.loginbutton{
+    width: 10vw;
+    border: none;
+    border-radius: 0.2vw;
+    background-color: white;
+    color: #F66754;
+    box-shadow: 5px 5px grey;
+    font-size: 2vh;
+    height: 2vw;
+    margin: 0.4vw 2vw 0vw 0vw;
+}
+.firsttext{
+color: #23212E;
+font-size: 2vw;
 }
 .header-image{
-    width: 10px;
-    height: 10px;
-
+    width: 25vw;
+    height: 27vw;
+      z-index: 0;
+      position: sticky;
+/* display: none; */
 }
 .header-image-div{
-text-align: left;
-display: none;
+
+    text-align: right;
+/* display: none; */
 }
